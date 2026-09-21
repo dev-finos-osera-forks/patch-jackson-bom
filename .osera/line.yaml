@@ -74,6 +74,7 @@ repositories:
   patch-jackson-dataformats-binary:
     - com.fasterxml.jackson.dataformat:jackson-dataformat-avro
     - com.fasterxml.jackson.dataformat:jackson-dataformat-cbor
+    - com.fasterxml.jackson.dataformat:jackson-dataformat-ion
     - com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf
     - com.fasterxml.jackson.dataformat:jackson-dataformat-smile
   patch-jackson-dataformats-text:
@@ -81,8 +82,6 @@ repositories:
     - com.fasterxml.jackson.dataformat:jackson-dataformat-properties
     - com.fasterxml.jackson.dataformat:jackson-dataformat-toml
     - com.fasterxml.jackson.dataformat:jackson-dataformat-yaml
-  patch-jackson-dataformat-ion:
-    - com.fasterxml.jackson.dataformat:jackson-dataformat-ion
   patch-jackson-dataformat-xml:
     - com.fasterxml.jackson.dataformat:jackson-dataformat-xml
   patch-jackson-datatypes-collections:
